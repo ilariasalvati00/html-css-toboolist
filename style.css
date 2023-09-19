@@ -1,0 +1,27 @@
+.titolo>h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.logo{
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.titolo{
+    display: inline-block;
+    padding: 20px 0;
+}
+

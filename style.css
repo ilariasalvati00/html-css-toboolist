@@ -32,7 +32,7 @@ body{
 
 main{
     background-color: white;
-    margin: 50px auto 0px auto;
+    margin: 1px auto 0px auto;
     width: 70%;
 }
 
@@ -42,6 +42,7 @@ input{
     border-color: lightgrey;
     background-color: white;
     border-style: solid;
+    color: lightgrey;
 }
 
 .checked{
@@ -58,5 +59,89 @@ input{
     margin: 50px auto 0px auto;
     width: 70%;
 }
+
+setion>h3{
+    font-weight: bold;
+}
+
+.tag{
+    border-radius: 20px;
+    color: white;
+    padding: 0 10px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.editorial{
+    background-color: #47A9E8;
+}
+
+.editorial::after{
+    content: "Editorial";
+}
+
+.check{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+.Q1-Goals{
+    background-color: #9c72e3;
+    
+}
+
+.Q1-Goals::after{
+content: "Q1 Goals";
+}
+
+.cross{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.Recruiting{
+    background-color: #63bea9;
+}
+
+.Recruiting::after{
+    content: "Recruiting";
+}
+
+.Mobile{
+    background-color: #F39C34;
+}
+
+.Mobile::after{
+    content: "Mobile";
+}
+
+.Website{
+    background-color: #d563a0;
+}
+
+.Website::after{
+    content: "Website";
+}
+
+.Sales{
+    background-color: #b1c729;
+}
+
+.Sales::after{
+    content: "Sales";
+}
+
+
+
 
 
